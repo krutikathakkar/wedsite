@@ -9,7 +9,7 @@
     },
     "versionFirst": "3.10",
     "uniqCompNum": 13,
-    "versionPublish": "3.10.3",
+    "versionPublish": "3.10",
     "publishType": "github"
   },
   "pages": {
@@ -33,64 +33,26 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#d6c0b5"
+              "background": "#2c2c2c"
             },
-            ".mbr-navbar__section": {},
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
             }
           },
           "_name": "ext.menu",
           "_anchor": "ext_menu-3",
           "_params": {
-            "color": "#d6c0b5",
+            "color": "#2c2c2c",
             "hamburgerColor": "#ffffff",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "collapsed": false,
             "logo": true,
             "showBrand": true,
-            "showButtons": true
+            "showButtons": false
           },
           "logo": {
             "image": {
@@ -136,7 +98,7 @@
               },
               {
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/dar8-2000x1333-33.jpg",
+                "image": "images/slide2.jpg",
                 "contentAlign": "left",
                 "showTitle": true,
                 "title": "Slide 2",
@@ -195,13 +157,12 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-4",
           "_params": {
-            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#d6c0b5",
+            "bgColor": "#f97352",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -221,11 +182,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dark-blue-background-wallpaper-1152x864-1400x1050-92.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "src": "images/iphone.png"
             },
             "video": {
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
@@ -264,13 +221,12 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-b",
           "_params": {
-            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#edeae8",
+            "bgColor": "#a38f84",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -413,13 +369,7 @@
             "showBullets": true
           },
           "_anchor": "gallery2-c",
-          "articleLayout": true,
-          "_styles": {
-            "SMALL": {
-              "color": "#ffffff",
-              "text-align": "center"
-            }
-          }
+          "articleLayout": true
         },
         {
           "_tags": [
@@ -433,7 +383,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#d6c0b5",
+            "bgColor": "#3c3c3c",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -452,11 +402,6 @@
             "Theme"
           ],
           "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          },
           "_anchor": "form1-9",
           "_params": {
             "paddingTop": 3,
