@@ -33,9 +33,11 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#d6c0b5"
+              "background": "#2c2c2c"
             },
-            ".mbr-navbar__section": {},
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
             },
@@ -81,16 +83,20 @@
             }
           },
           "_name": "ext.menu",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>",
           "_anchor": "ext_menu-3",
           "_params": {
-            "color": "#d6c0b5",
-            "hamburgerColor": "#ffffff",
-            "transparent": true,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
             "sticky": true,
-            "collapsed": false,
             "logo": true,
             "showBrand": true,
-            "showButtons": true
+            "collapsed": false,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -108,8 +114,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">THE FUN BEGINS</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">COUPLE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">OUR STORY</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">PHOTOS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">EVENTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">RSVP</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">COUPLE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">OUR STORY</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">PHOTOS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">EVENTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">RSVP</a></li>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -121,12 +126,13 @@
             "autoplay": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "timeout": 5,
             "slides": [
               {
                 "active": false,
                 "image": "images/slide1.jpg",
-                "contentAlign": "right",
                 "overlay": false,
+                "contentAlign": "right",
                 "showTitle": true,
                 "title": "Slide 1",
                 "showText": false,
@@ -136,7 +142,7 @@
               },
               {
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/dar8-2000x1333-33.jpg",
+                "image": "images/slide2.jpg",
                 "contentAlign": "left",
                 "showTitle": true,
                 "title": "Slide 2",
@@ -170,10 +176,13 @@
           ],
           "_name": "header3",
           "_anchor": "header3-5",
-          "title": "<i style=\"font-weight: normal;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MEET THE COUPLE</i>",
           "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
             "showMeta": false
           },
+          "title": "<i style=\"font-weight: normal;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;MEET THE COUPLE</i>",
           "meta": ""
         },
         {
@@ -193,15 +202,18 @@
             }
           },
           "_name": "msg-box4",
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_anchor": "msg-box4-4",
           "_params": {
             "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
             "parallax": true,
+            "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#d6c0b5",
+            "bgColor": "#f97352",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -212,76 +224,6 @@
             "overlayColor": "#222",
             "inverse": false,
             "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dark-blue-background-wallpaper-1152x864-1400x1050-92.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "headerAlign": "left",
-          "title": "DARSHIT VORA",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-b",
-          "_params": {
-            "imageSize": 50,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#edeae8",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
             "showText": true,
             "showButtons": false
           },
@@ -304,11 +246,72 @@
               "size": 0
             }
           },
+          "title": "DARSHIT VORA",
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
           "headerAlign": "left",
-          "title": "NIYATI SHAH",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_anchor": "msg-box4-b",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#a38f84",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "NIYATI SHAH",
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>"
         },
         {
           "_inherit": "msg-box3",
@@ -329,14 +332,13 @@
             "Theme"
           ],
           "_name": "content5",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_anchor": "content5-6",
           "_params": {
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "showTitle": true,
-            "showText": true,
-            "showButton": false,
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -349,13 +351,10 @@
             "overlay": true,
             "overlayOpacity": 0.2,
             "overlayColor": "#28324e",
-            "showMeta": false,
-            "darkBackground": true
+            "showTitle": true,
+            "showCaption": true
           },
-          "title": "OUR STORY",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+          "title": "OUR STORY"
         },
         {
           "_inherit": "gallery1",
@@ -363,59 +362,58 @@
             "Theme"
           ],
           "_name": "gallery2",
-          "_styles": {
-            "SMALL": {
-              "color": "#ffffff",
-              "text-align": "center"
-            }
-          },
           "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
             "images": [
               {
-                "caption": "Type caption here",
                 "thumb": "images/slide1-small.jpg",
                 "image": "images/slide1.jpg",
+                "caption": "Type caption here",
                 "active": true
               },
               {
-                "caption": "Type caption here",
                 "thumb": "images/slide2-small.jpg",
-                "image": "images/slide2.jpg"
+                "image": "images/slide2.jpg",
+                "caption": "Type caption here"
               },
               {
-                "caption": "Type caption here",
                 "thumb": "images/slide3-small.jpg",
-                "image": "images/slide3.jpg"
+                "image": "images/slide3.jpg",
+                "caption": "Type caption here"
               },
               {
-                "caption": "Type caption here",
                 "thumb": "images/slide4-small.jpg",
-                "image": "images/slide4.jpg"
+                "image": "images/slide4.jpg",
+                "caption": "Type caption here"
               },
               {
-                "caption": "Type caption here",
                 "thumb": "images/slide5-small.jpg",
-                "image": "images/slide5.jpg"
+                "image": "images/slide5.jpg",
+                "caption": "Type caption here"
               },
               {
-                "caption": "Type caption here",
                 "thumb": "images/slide6-small.jpg",
-                "image": "images/slide6.jpg"
+                "image": "images/slide6.jpg",
+                "caption": "Type caption here"
               },
               {
-                "caption": "Type caption here",
                 "thumb": "images/slide7-small.jpg",
-                "image": "images/slide7.jpg"
+                "image": "images/slide7.jpg",
+                "caption": "Type caption here"
               },
               {
-                "caption": "Type caption here",
                 "thumb": "images/slide8-small.jpg",
-                "image": "images/slide8.jpg"
+                "image": "images/slide8.jpg",
+                "caption": "Type caption here"
               }
             ],
+            "spacing": 0,
             "showText": true,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
             "fullWidth": false,
-            "noGutter": true,
             "showBullets": true
           },
           "_anchor": "gallery2-c",
@@ -433,7 +431,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#d6c0b5",
+            "bgColor": "#3c3c3c",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -452,13 +450,9 @@
             "Theme"
           ],
           "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          },
           "_anchor": "form1-9",
           "_params": {
+            "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
@@ -469,7 +463,8 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "showTitle": true,
+            "showSubTitle": true
           },
           "title": "RSVP",
           "form": {
@@ -499,7 +494,12 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
         },
         {
           "_tags": [
@@ -513,7 +513,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#d6c0b5",
+            "bgColor": "#444444",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,

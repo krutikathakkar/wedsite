@@ -363,12 +363,6 @@
             "Theme"
           ],
           "_name": "gallery2",
-          "_styles": {
-            "SMALL": {
-              "color": "#ffffff",
-              "text-align": "center"
-            }
-          },
           "_params": {
             "images": [
               {
@@ -419,7 +413,13 @@
             "showBullets": true
           },
           "_anchor": "gallery2-c",
-          "articleLayout": true
+          "articleLayout": true,
+          "_styles": {
+            "SMALL": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          }
         },
         {
           "_tags": [
@@ -513,7 +513,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#d6c0b5",
+            "bgColor": "#444444",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
