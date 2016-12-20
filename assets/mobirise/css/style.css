@@ -1726,7 +1726,15 @@ html {
   font-size: 250px; /* ~ image.height */
   text-decoration:none;
 }
-.engine {
+
+@media (max-width: 768px) {
+  .image-size{
+    width: 100% !important;
+  }
+  .content-size{
+    width: 100%;
+  }
+}.engine {
 	position: absolute;
 	text-indent: -2400px;
 	text-align: center;
